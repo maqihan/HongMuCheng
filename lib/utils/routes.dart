@@ -1,14 +1,14 @@
 
 import 'package:flutter/material.dart';
-import 'package:hong_mu_cheng/ui/page/home/home_page.dart';
+import 'package:hong_mu_cheng/ui/page/home/index_page.dart';
 
 class Routes{
 
   static Map<String, WidgetBuilder> allRoutes() {
     return  <String, WidgetBuilder>{
-      '/home': (BuildContext context) => HomePage(),
-      '/home2': (BuildContext context) => HomePage(),
-      '/home3': (BuildContext context) => HomePage(),
+      '/home': (BuildContext context) => IndexPage(),
+      '/home2': (BuildContext context) => IndexPage(),
+      '/home3': (BuildContext context) => IndexPage(),
     };
   }
 }
